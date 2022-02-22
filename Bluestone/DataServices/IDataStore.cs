@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Bluestone.Services
+namespace Bluestone.DataServices
 {
     public interface IDataStore<T>
     {
