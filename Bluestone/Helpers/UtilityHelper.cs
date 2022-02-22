@@ -1,9 +1,9 @@
 using Xamarin.Forms.Internals;
 
-namespace Bluestone.Helper
+namespace Bluestone.Helpers
 {
     [Preserve(AllMembers = true)]
-    public static class Enums
+    public static class UtilityHelper
     {
         public static string RegisterPath = "api/register";
         public static string LoginPath = "api/login";

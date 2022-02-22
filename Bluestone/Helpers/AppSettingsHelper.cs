@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Bluestone.Helper
+namespace Bluestone.Helpers
 {
-    public class AppSettings
+    public class AppSettingsHelper
     {
 #if DEBUG
         public const string BaseUrl = "https://admin.joinme.co.in/";

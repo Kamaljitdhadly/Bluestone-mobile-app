@@ -1,7 +1,7 @@
 ﻿using System.Globalization;
-namespace Bluestone.Helper
+namespace Bluestone.Helpers
 {
-    public interface ILocalize
+    public interface ILocalizeHelper
     {
         CultureInfo GetCurrentCultureInfo();
 

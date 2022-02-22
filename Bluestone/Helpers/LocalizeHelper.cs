@@ -1,10 +1,10 @@
 ﻿using System.Globalization;
 using System.Threading;
 
-[assembly: Xamarin.Forms.Dependency(typeof(Bluestone.Helper.Localize))]
-namespace Bluestone.Helper
+[assembly: Xamarin.Forms.Dependency(typeof(Bluestone.Helpers.LocalizeHelper))]
+namespace Bluestone.Helpers
 {
-    public class Localize : ILocalize
+    public class LocalizeHelper : ILocalizeHelper
     {
         public CultureInfo GetCurrentCultureInfo()
         {

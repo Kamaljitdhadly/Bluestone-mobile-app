@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -6,6 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Plugin.Permissions" Version="6.0.1" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />  
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
   </ItemGroup>
@@ -40,7 +42,6 @@
   <ItemGroup>
     <Folder Include="Models\Messages\" />
     <Folder Include="Models\Auth\" />
-    <Folder Include="Services\" />
     <Folder Include="Validators\" />
     <Folder Include="ViewModels\Messages\" />
     <Folder Include="Views\Messages\" />

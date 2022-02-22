@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 
-namespace Bluestone.Helper
+namespace Bluestone.Helpers
 {
     public static class EncryptedStorageHelper
     {

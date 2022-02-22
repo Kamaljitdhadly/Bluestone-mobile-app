@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Text.RegularExpressions;
 
-namespace Bluestone.Helper
+namespace Bluestone.Helpers
 {
     public class CommonHelper
     {
