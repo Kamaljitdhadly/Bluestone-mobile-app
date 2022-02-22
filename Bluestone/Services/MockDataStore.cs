@@ -1,4 +1,4 @@
-﻿using Bluestone.Models;
+﻿using Bluestone.Models.Dashboard;
 using System;
 using System.Collections.Generic;
 using System.Linq;

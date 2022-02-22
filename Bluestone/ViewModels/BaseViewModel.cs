@@ -1,4 +1,4 @@
-﻿using Bluestone.Models;
+﻿using Bluestone.Models.Dashboard;
 using Bluestone.Services;
 using System;
 using System.Collections.Generic;

@@ -1,11 +1,11 @@
-﻿using Bluestone.Models;
+﻿using Bluestone.Models.Dashboard;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows.Input;
 using Xamarin.Forms;
 
-namespace Bluestone.ViewModels
+namespace Bluestone.ViewModels.Dashboard
 {
     public class NewItemViewModel : BaseViewModel
     {

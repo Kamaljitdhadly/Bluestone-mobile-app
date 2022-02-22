@@ -1,10 +1,10 @@
-﻿using Bluestone.Views;
+﻿using Bluestone.Views.Dashboard;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using Xamarin.Forms;
 
-namespace Bluestone.ViewModels
+namespace Bluestone.ViewModels.Auth
 {
     public class LoginViewModel : BaseViewModel
     {

@@ -1,5 +1,5 @@
 ﻿using Bluestone.ViewModels;
-using Bluestone.Views;
+using Bluestone.Views.Dashboard;
 using System;
 using System.Collections.Generic;
 using Xamarin.Forms;

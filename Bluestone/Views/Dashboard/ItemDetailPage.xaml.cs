@@ -1,8 +1,8 @@
-﻿using Bluestone.ViewModels;
+﻿using Bluestone.ViewModels.Dashboard;
 using System.ComponentModel;
 using Xamarin.Forms;
 
-namespace Bluestone.Views
+namespace Bluestone.Views.Dashboard
 {
     public partial class ItemDetailPage : ContentPage
     {

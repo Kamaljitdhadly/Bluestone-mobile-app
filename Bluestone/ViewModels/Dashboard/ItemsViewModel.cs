@@ -1,12 +1,12 @@
-﻿using Bluestone.Models;
-using Bluestone.Views;
+﻿using Bluestone.Models.Dashboard;
+using Bluestone.Views.Dashboard;
 using System;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace Bluestone.ViewModels
+namespace Bluestone.ViewModels.Dashboard
 {
     public class ItemsViewModel : BaseViewModel
     {

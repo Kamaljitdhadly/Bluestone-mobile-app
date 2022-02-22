@@ -1,5 +1,5 @@
-﻿using Bluestone.Models;
-using Bluestone.ViewModels;
+﻿using Bluestone.Models.Dashboard;
+using Bluestone.ViewModels.Dashboard;
 using Bluestone.Views;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Bluestone.Views
+namespace Bluestone.Views.Dashboard
 {
     public partial class ItemsPage : ContentPage
     {

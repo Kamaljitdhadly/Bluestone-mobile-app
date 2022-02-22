@@ -3,7 +3,7 @@ using System.Windows.Input;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 
-namespace Bluestone.ViewModels
+namespace Bluestone.ViewModels.Dashboard
 {
     public class AboutViewModel : BaseViewModel
     {

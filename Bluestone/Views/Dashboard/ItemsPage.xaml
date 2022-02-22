@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Bluestone.Views.ItemsPage"
+             x:Class="Bluestone.Views.Dashboard.ItemsPage"
              Title="{Binding Title}"
-             xmlns:local="clr-namespace:Bluestone.ViewModels"  
-             xmlns:model="clr-namespace:Bluestone.Models"  
+             xmlns:local="clr-namespace:Bluestone.ViewModels.Dashboard"  
+             xmlns:model="clr-namespace:Bluestone.Models.Dashboard"  
              x:Name="BrowseItemsPage">
 
     <ContentPage.ToolbarItems>

@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Shell xmlns="http://xamarin.com/schemas/2014/forms" 
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-       xmlns:local="clr-namespace:Bluestone.Views"
+       xmlns:local="clr-namespace:Bluestone.Views.Dashboard"
+       xmlns:auth="clr-namespace:Bluestone.Views.Auth"
        Title="Bluestone"
        x:Class="Bluestone.AppLayout.AppShell">
 
@@ -97,7 +98,7 @@
         await Shell.Current.GoToAsync("//LoginPage");
     -->
     <TabBar>
-        <ShellContent Route="LoginPage" ContentTemplate="{DataTemplate local:LoginPage}" />
+        <ShellContent Route="LoginPage" ContentTemplate="{DataTemplate auth:LoginPage}" />
     </TabBar>
 
     <!-- Optional Templates 

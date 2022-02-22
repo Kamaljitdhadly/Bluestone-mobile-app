@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Bluestone.Models
+namespace Bluestone.Models.Dashboard
 {
     public class Item
     {

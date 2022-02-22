@@ -1,10 +1,10 @@
-﻿using Bluestone.Models;
+﻿using Bluestone.Models.Dashboard;
 using System;
 using System.Diagnostics;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace Bluestone.ViewModels
+namespace Bluestone.ViewModels.Dashboard
 {
     [QueryProperty(nameof(ItemId), nameof(ItemId))]
     public class ItemDetailViewModel : BaseViewModel
