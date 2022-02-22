@@ -1,8 +1,6 @@
 ﻿using Bluestone.Services;
-using Bluestone.Views;
-using System;
+using Bluestone.AppLayout;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace Bluestone
 {

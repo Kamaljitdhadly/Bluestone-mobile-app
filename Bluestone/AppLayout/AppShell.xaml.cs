@@ -4,7 +4,8 @@ using System;
 using System.Collections.Generic;
 using Xamarin.Forms;
 
-namespace Bluestone
+
+namespace Bluestone.AppLayout
 {
     public partial class AppShell : Xamarin.Forms.Shell
     {
